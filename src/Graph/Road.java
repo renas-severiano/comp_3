@@ -36,7 +36,99 @@ public class Road {
 
     }
 
+    public int getOriginCityID() {
+        return originCityID;
+    }
+
+    public void setOriginCityID(int originCityID) {
+        this.originCityID = originCityID;
+    }
+
     public String getOriginCityName() {
         return originCityName;
+    }
+
+    public void setOriginCityName(String originCityName) {
+        this.originCityName = originCityName;
+    }
+
+    public int getPaths() {
+        return paths;
+    }
+
+    public void setPaths(int paths) {
+        this.paths = paths;
+    }
+
+    public int getAdjacencyID() {
+        return adjacencyID;
+    }
+
+    public void setAdjacencyID(int adjacencyID) {
+        this.adjacencyID = adjacencyID;
+    }
+
+    public String getAdjacencyCityName() {
+        return adjacencyCityName;
+    }
+
+    public void setAdjacencyCityName(String adjacencyCityName) {
+        this.adjacencyCityName = adjacencyCityName;
+    }
+
+    public double getDistanceKM() {
+        return distanceKM;
+    }
+
+    public void setDistanceKM(double distanceKM) {
+        this.distanceKM = distanceKM;
+    }
+
+    public double getTimeHours() {
+        return timeHours;
+    }
+
+    public void setTimeHours(double timeHours) {
+        this.timeHours = timeHours;
+    }
+
+    public double getFuelCost() {
+        return fuelCost;
+    }
+
+    public void setFuelCost(double fuelCost) {
+        this.fuelCost = fuelCost;
+    }
+
+    public double getTollCost() {
+        return tollCost;
+    }
+
+    public void setTollCost(double tollCost) {
+        this.tollCost = tollCost;
+    }
+
+    public double getDriverCost() {
+        return driverCost;
+    }
+
+    public void setDriverCost(double driverCost) {
+        this.driverCost = driverCost;
+    }
+
+    public int getRoadID() {
+        return roadID;
+    }
+
+    public void setRoadID(int roadID) {
+        this.roadID = roadID;
+    }
+
+    public char getGroup() {
+        return group;
+    }
+
+    public void setGroup(char group) {
+        this.group = group;
     }
 }
